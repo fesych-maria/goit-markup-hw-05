@@ -515,7 +515,7 @@
               <input
                 type="text"
                 name="user-name"
-                class="modal-input"
+                class="modal-input modal-element"
                 id="user-name"
               />
               <svg width="18" height="24" class="input-icon">
@@ -529,10 +529,10 @@
               <input
                 type="tel"
                 name="user-tel"
-                class="modal-input"
+                class="modal-input modal-element"
                 id="user-tel"
               />
-              <svg width="18" height="24" class="input-icon"></svg>
+              <svg width="18" height="24" class="input-icon">
                 <use href="./images/icons.svg#icon-phone-1"></use>
               </svg>
             </div>
@@ -543,17 +543,22 @@
               <input
                 type="email"
                 name="user-email"
-                class="modal-input"
+                class="modal-input modal-element"
                 id="user-email"
               />
-              <svg width="18" height="24" class="input-icon"></svg>
+              <svg width="18" height="24" class="input-icon">
                 <use href="./images/icons.svg#icon-email-1"></use>
               </svg>
             </div>
           </div>
           <div class="textarea-wrapper">
-            <label for="comment-area" class="input-label">Comment</label>
-            <textarea placeholder="Text input" class="modal-textarea" id="comment-area"></textarea>
+            <label for="model-comment" class="input-label">Comment</label>
+            <textarea
+              placeholder="Text input"
+              class="modal-textarea modal-element"
+              id="model-comment"
+              name="model-comment"
+            ></textarea>
           </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
