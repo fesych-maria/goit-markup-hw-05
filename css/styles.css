@@ -461,6 +461,7 @@ img {
   height: 100%;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 .modal {
@@ -474,7 +475,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 24px;
+  padding: 72px 24px 24px;
 }
 
 .modal-heading {
@@ -483,6 +484,26 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.close-modal-btn {
+  border-radius: 100%;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
+.close-icon {
+  fill: #2e2f42;
+  position: absolute;
 }
 
 .modal-input {
@@ -491,4 +512,27 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
+}
+
+.input-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+
+.input-field {
+  margin-bottom: 8px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  fill: #2e2f42;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
