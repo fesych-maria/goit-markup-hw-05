@@ -473,6 +473,7 @@ input {
   padding: 8px 16px;
   outline: transparent;
   width: 264px;
+  margin-right: 24px;
 }
 
 .footer-input::placeholder,
@@ -485,7 +486,6 @@ input {
 
 .footer-form {
   display: flex;
-  gap: 24px;
 }
 
 .footer-form-button {
